@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 标记 语言的注释 -->
+<!-- 
+	1. <?xml version="1.0" encoding="UTF-8"?> 版本控制  必须存在于首行
+	2. 标记语言是用<>定义的
+	3. 在xml文件中可以自定义标签，但是在html中必须使用 其提供得标签
+	4. 在xml文件 中有且只有一个根标签(根元素)
+	5. 标签分为双标签(闭合标签) <Persons></Persons> 
+			    单标签(自闭和标签)  <Persons/>
+	6. xml是一个语言严谨的标记语言
+	7. xml作用：用于数据的存储，传输，解析..
+	8. xml属性：帮助更完整的展示标签的作用  属性名="属性值"
+-->
+<!-- 相当于一个list，存储包含多个Person信息 -->
+<Persons>
+	<Teacher id = "001">
+		<name>aa</name>
+		<age>26</age>
+		<gender>男</gender>
+		<subject>数学</subject>
+	</Teacher>
+	<Student>
+		<name>bbb</name>
+		<age>16</age>
+		<gender>男</gender>
+	</Student>
+	<Student>
+		<name>ccc</name>
+		<age>15</age>
+		<gender>女</gender>
+	</Student>
+</Persons>
